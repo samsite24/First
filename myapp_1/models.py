@@ -1,5 +1,4 @@
 from django.db import models
-from myapp_1 import views
 
 # Create your models here.
 
