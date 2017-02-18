@@ -1,0 +1,42 @@
+
+@font-face
+{
+	font-family : 'New Font';
+	src : local('Hallelujah Font'),local(HallelujahFont),url('http://www.1001freefonts.com/d/19123/hallelujah.zip');
+	font-weight : 20;
+	font-style : normal;
+}
+
+html
+	{
+		background : black;
+		color : white;
+	}
+
+h2
+	{
+		font-family : Lucida Fax;
+		font-size : 25px;
+		color : black;
+		background-color : red;
+		padding : red solid;
+	}
+
+#issue
+	{
+		color : green;
+	}
+
+h3
+	{
+		font-family : 'New Font';
+		font-size : 35px;
+		background-color : blue;
+		padding : blue solid;
+		color : yellow;
+	}
+
+.issue p
+	{
+		font-family : Modern No. 20, MicroSquare, Courier;
+	}

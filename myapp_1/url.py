@@ -2,8 +2,9 @@
 # @samsite
 
 from django.conf.urls import url
-from myapp_1 import views
+from . import views
 
 urlpatterns = (
     url(r'func/', views.func, name='func'),
+    url(r'^problem/(?P<pk>\d+)/', views.problems, name='problems'),
 )
